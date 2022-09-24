@@ -35,6 +35,10 @@
   }
 }
 
+.section {
+  padding-top: 100px;
+}
+
 .hero {
   height: 100vh;
 }
@@ -333,6 +337,13 @@ img {
 
 svg {
   width: 80%;
+}
+
+@media screen and (max-width: 960px) {
+  svg {
+    -webkit-transform: scale(2);
+            transform: scale(2);
+  }
 }
 
 #elipse_dashed {
@@ -785,7 +796,7 @@ svg {
   0%, 18% {
     opacity: 0;
   }
-  20% {
+  20%, 90% {
     opacity: 1;
   }
   100% {
@@ -797,7 +808,7 @@ svg {
   0%, 18% {
     opacity: 0;
   }
-  20% {
+  20%, 90% {
     opacity: 1;
   }
   100% {
@@ -814,7 +825,7 @@ svg {
   0%, 36% {
     opacity: 0;
   }
-  38% {
+  38%, 90% {
     opacity: 1;
   }
   100% {
@@ -826,7 +837,7 @@ svg {
   0%, 36% {
     opacity: 0;
   }
-  38% {
+  38%, 90% {
     opacity: 1;
   }
   100% {
@@ -843,7 +854,7 @@ svg {
   0%, 58% {
     opacity: 0;
   }
-  60% {
+  60%, 90% {
     opacity: 1;
   }
   100% {
@@ -855,7 +866,7 @@ svg {
   0%, 58% {
     opacity: 0;
   }
-  60% {
+  60%, 90% {
     opacity: 1;
   }
   100% {
@@ -872,7 +883,7 @@ svg {
   0%, 68% {
     opacity: 0;
   }
-  70% {
+  70%, 90% {
     opacity: 1;
   }
   100% {
@@ -884,7 +895,7 @@ svg {
   0%, 68% {
     opacity: 0;
   }
-  70% {
+  70%, 90% {
     opacity: 1;
   }
   100% {
@@ -901,7 +912,7 @@ svg {
   0%, 78% {
     opacity: 0;
   }
-  80% {
+  80%, 90% {
     opacity: 1;
   }
   100% {
@@ -913,7 +924,7 @@ svg {
   0%, 78% {
     opacity: 0;
   }
-  80% {
+  80%, 90% {
     opacity: 1;
   }
   100% {

@@ -24,10 +24,10 @@
 
       <div class="navbar-desktop-left">
         <ul class="navbar-desktop-list">
-          <li><a href="" class="navbar-desktop-link">Home</a></li>
-          <li><a href="" class="navbar-desktop-link">Sobre</a></li>
-          <li><a href="" class="navbar-desktop-link">Projetos</a></li>
-          <li><a href="" class="navbar-desktop-link">Contato</a></li>
+          <li><a href="#home" class="navbar-desktop-link">Home</a></li>
+          <li><a href="#about" class="navbar-desktop-link">Sobre</a></li>
+          <li><a href="#projects" class="navbar-desktop-link">Projetos</a></li>
+          <li><a href="#contact" class="navbar-desktop-link">Contato</a></li>
         </ul>
       </div>
 
@@ -50,22 +50,22 @@
 
     <!-- MENU MOBILE -->
     <nav class="menu-mobile" id="menu-mobile">
-      <ul class="menu-mobile-list">
-        <li><a href="" class="menu-mobile-link">Home</a></li>
-        <li><a href="" class="menu-mobile-link">Projetos</a></li>
-        <li><a href="" class="menu-mobile-link">Contato</a></li>
+      <ul class="menu-mobile-list" id="menu-mobile-list">
+        <li><a href="#home" class="menu-mobile-link">Home</a></li>
+        <li><a href="#about" class="menu-mobile-link">Sobre</a></li>
+        <li><a href="#projects" class="menu-mobile-link">Projetos</a></li>
+        <li><a href="#contact" class="menu-mobile-link">Contato</a></li>
         <li><a href="" class="menu-mobile-link">Curriculo</a></li>
         <li class="flex-center" style="margin-top: 20px;">
-          <a style="margin-right: 30px;" href=""><img class="svg" src="svg/linkedin.svg" alt=""></a>
-          <a href=""><img class="svg" src="svg/github.svg" alt=""></a>
+          <a style="margin-right: 30px;" href="https://www.linkedin.com/in/leokatsuki/" target="_blank"><img class="svg" src="svg/linkedin.svg" alt=""></a>
+          <a href="https://github.com/leokatsuki" target="_blank"><img class="svg" src="svg/github.svg" alt=""></a>
         </li>
       </ul>
     </nav>
-
   </header>
 
   <!-- PAGE HERO -->
-  <section class="container hero"> 
+  <section class="container section hero" id="home"> 
     <div class="flex-item-1">
       <div>
         <h5>Olá, me chamo</h5>
@@ -185,7 +185,7 @@
   </section>
 
   <!-- SECTION SOBRE -->
-  <section class="container">
+  <section class="container section" id="about">
     <div class="flex-item-1">
       <h3 class="mask">Sobre mim</h3>
       <p class="mt-3">Sou desenvolvedor Front-End com bacharel em Engenharia da Computação pelo UniCEUB. Formado em 2021. <br> Nas horas vagas eu gosto de aprender novas tecnologias para aperfeiçoar meus conhecimentos e no momento estou estudando <strong>Angular</strong>.</p>
@@ -387,7 +387,7 @@
   </section>
 
   <!-- SECTION PROJECTS -->
-  <section class="container">
+  <section class="container section" id="projects">
     <div class="flex-column">
       <h3 class="mask">Projetos</h3>
 
@@ -452,7 +452,7 @@
   </section>
 
   <!-- SECTION CONTACT -->
-  <section class="container flex-column">
+  <section class="container section flex-column" id="contact">
     <h3 class="mask">Entre em contato</h3>
     <form action="" id="contact-form" class="form mt-4">
       <label for="name">Nome</label>
@@ -472,7 +472,7 @@
   <!-- FOOTER -->
   <footer class="footer flex-column py-4">
     <div class="mb-2">
-      <a href=""><img class="logo" src="svg/logo.svg" alt=""></a>
+      <a href="#home"><img class="logo" src="svg/logo.svg" alt=""></a>
     </div>
     <div>
       <p>© Copyright 2022. All Rights Reserved.</p>

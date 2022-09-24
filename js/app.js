@@ -10,8 +10,19 @@ const showMenu = (toggleId, navId) => {
         })
     }
 }
-
 showMenu('bx', 'menu-mobile');
+
+
+// REMOVE MENU WHEN CLICK
+const navLink = document.querySelectorAll('.menu-mobile-link');
+
+const linkAction = () => {
+    const navMenu = document.getElementById('menu-mobile');
+    const navBx = document.getElementById('bx');
+    navMenu.classList.toggle('active-menu-mobile');
+    navBx.classList.toggle('active-bx')
+}
+navLink.forEach(n => n.addEventListener('click', linkAction));
 
 
 // EMAILJS
