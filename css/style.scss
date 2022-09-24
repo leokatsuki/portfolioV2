@@ -1,0 +1,23 @@
+*, *::after, *::before{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@import 'sass/layout';
+@import 'sass/colors';
+@import 'sass/menu';
+@import 'sass/typography';
+@import 'sass/spacing';
+
+
+body{
+  width: 100%;
+  height: 100vh;
+
+  background-color: $black-dark;
+}
+
+.border{
+  border: 1px solid red;
+}
