@@ -526,27 +526,27 @@ svg {
           animation: elipse-rotate2 10s ease infinite;
 }
 
-#line1 {
+#line1_sk {
   -webkit-animation: lines 6s linear infinite;
           animation: lines 6s linear infinite;
 }
 
-#line2 {
+#line2_sk {
   -webkit-animation: lines 3s linear 1s infinite;
           animation: lines 3s linear 1s infinite;
 }
 
-#line3 {
+#line3_sk {
   -webkit-animation: lines 4s linear 1.5s infinite;
           animation: lines 4s linear 1.5s infinite;
 }
 
-#line4 {
+#line4_sk {
   -webkit-animation: lines 5s linear 2s infinite;
           animation: lines 5s linear 2s infinite;
 }
 
-#line5 {
+#line5_sk {
   -webkit-animation: lines 6s linear 2.5s infinite;
           animation: lines 6s linear 2.5s infinite;
 }
