@@ -5,6 +5,26 @@
           box-sizing: border-box;
 }
 
+.bg {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+  background: #15171a;
+}
+
 .container {
   max-width: 1440px;
   margin: 0 auto;
@@ -929,6 +949,166 @@ svg {
   }
   100% {
     opacity: 0;
+  }
+}
+
+.logo-1 {
+  fill: transparent;
+  -webkit-animation: logo 12s ease infinite alternate;
+          animation: logo 12s ease infinite alternate;
+}
+
+@-webkit-keyframes logo {
+  0% {
+    stroke-width: 0;
+    stroke-dasharray: 1 100;
+    fill: transparent;
+  }
+  25% {
+    stroke-width: 1;
+    fill: transparent;
+    stroke-dasharray: 100 0;
+  }
+  60%, 100% {
+    stroke-width: 0.3;
+    fill: url(#paint0_linear_104_10);
+  }
+}
+
+@keyframes logo {
+  0% {
+    stroke-width: 0;
+    stroke-dasharray: 1 100;
+    fill: transparent;
+  }
+  25% {
+    stroke-width: 1;
+    fill: transparent;
+    stroke-dasharray: 100 0;
+  }
+  60%, 100% {
+    stroke-width: 0.3;
+    fill: url(#paint0_linear_104_10);
+  }
+}
+
+.logo-2 {
+  fill: transparent;
+  -webkit-animation: logo2 12s ease infinite alternate;
+          animation: logo2 12s ease infinite alternate;
+}
+
+@-webkit-keyframes logo2 {
+  0% {
+    stroke-width: 0;
+    stroke-dasharray: 1 100;
+    fill: transparent;
+  }
+  25% {
+    stroke-width: 1;
+    fill: transparent;
+    stroke-dasharray: 100 0;
+  }
+  60%, 100% {
+    stroke-width: 0.3;
+    fill: url(#paint1_linear_104_10);
+  }
+}
+
+@keyframes logo2 {
+  0% {
+    stroke-width: 0;
+    stroke-dasharray: 1 100;
+    fill: transparent;
+  }
+  25% {
+    stroke-width: 1;
+    fill: transparent;
+    stroke-dasharray: 100 0;
+  }
+  60%, 100% {
+    stroke-width: 0.3;
+    fill: url(#paint1_linear_104_10);
+  }
+}
+
+.logo-3 {
+  fill: transparent;
+  -webkit-animation: logo3 12s ease infinite alternate;
+          animation: logo3 12s ease infinite alternate;
+}
+
+@-webkit-keyframes logo3 {
+  0% {
+    stroke-width: 0;
+    stroke-dasharray: 1 100;
+    fill: transparent;
+  }
+  25% {
+    stroke-width: 1;
+    fill: transparent;
+    stroke-dasharray: 100 0;
+  }
+  60%, 100% {
+    stroke-width: 0.3;
+    fill: url(#paint2_linear_104_10);
+  }
+}
+
+@keyframes logo3 {
+  0% {
+    stroke-width: 0;
+    stroke-dasharray: 1 100;
+    fill: transparent;
+  }
+  25% {
+    stroke-width: 1;
+    fill: transparent;
+    stroke-dasharray: 100 0;
+  }
+  60%, 100% {
+    stroke-width: 0.3;
+    fill: url(#paint2_linear_104_10);
+  }
+}
+
+.logo-4 {
+  fill: transparent;
+  -webkit-animation: logo4 12s ease infinite alternate;
+          animation: logo4 12s ease infinite alternate;
+}
+
+@-webkit-keyframes logo4 {
+  0% {
+    stroke-width: 0;
+    stroke-dasharray: 1 100;
+    fill: transparent;
+  }
+  25% {
+    stroke-width: 1;
+    fill: transparent;
+    stroke-dasharray: 100 0;
+  }
+  60%, 100% {
+    stroke-width: 0.3;
+    fill: url(#paint3_linear_104_10);
+  }
+}
+
+@keyframes logo4 {
+  0% {
+    stroke-width: 0;
+    stroke-dasharray: 1 100;
+    fill: transparent;
+  }
+  25% {
+    stroke-width: 1;
+    fill: transparent;
+    stroke-dasharray: 100 0;
+  }
+  60%, 100% {
+    stroke-width: 0.3;
+    fill: url(#paint3_linear_104_10);
   }
 }
 
@@ -1979,6 +2159,10 @@ strong {
 .py-9 {
   padding-top: 128px !important;
   padding-bottom: 128px !important;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {

@@ -64,3 +64,33 @@ const sendEmail = (e) => {
 }
 
 contactForm.addEventListener('submit', sendEmail);
+
+
+// GSAP ANIMATION
+document.addEventListener('DOMContentLoaded', () => {
+    let tl = new TimelineMax();
+
+    tl.fromTo('.bg', 1 ,
+    {height: '100%'},
+    {height: '0%', delay: 5, ease: Expo.easeInOut})
+
+    .fromTo('.logo', 0.7 ,
+    {y: -50, opacity: 0},
+    {y: 0, opacity: 1, ease: Expo.easeInOut}, '-=0.5')
+
+    .fromTo('.navbar-desktop-left', 0.7 ,
+    {y: -50, opacity: 0},
+    {y: 0, opacity: 1, ease: Expo.easeInOut}, '-=0.5')
+
+    .fromTo('.navbar-desktop-right', 0.7 ,
+    {y: -50, opacity: 0},
+    {y: 0, opacity: 1, ease: Expo.easeInOut}, '-=0.5')
+
+    .fromTo('.gsap-item1', 0.7 ,
+    {y: -50, opacity: 0},
+    {y: 0, opacity: 1, ease: Expo.easeInOut}, '-=0.5')
+
+    .fromTo('.gsap-item2', 0.7 ,
+    {y: -50, opacity: 0},
+    {y: 0, opacity: 1, ease: Expo.easeInOut}, '-=0.5')
+})

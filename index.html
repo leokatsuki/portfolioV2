@@ -14,6 +14,34 @@
 </head>
 <body>
   
+  <section class="bg">
+    <svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path class="logo-1" d="M62 48.129H14.8534L9 60H56.1466L62 48.129Z" fill="url(#paint0_linear_104_10)"/>
+      <path class="logo-2" d="M44.759 12H30.2851L16.1305 43.6903H31.7751L44.759 12Z" fill="url(#paint1_linear_104_10)"/>
+      <path class="logo-3" d="M62 48.129H14.8534L9 60H56.1466L62 48.129Z" stroke="url(#paint2_linear_104_10)"/>
+      <path class="logo-4" d="M44.759 12H30.2851L16.1305 43.6903H31.7751L44.759 12Z" stroke="url(#paint3_linear_104_10)"/>
+      <defs>
+      <linearGradient id="paint0_linear_104_10" x1="64.2316" y1="15.5368" x2="27.0942" y2="57.6846" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#538BF0"/>
+      <stop offset="1" stop-color="#2DC7ED" stop-opacity="0"/>
+      </linearGradient>
+      <linearGradient id="paint1_linear_104_10" x1="64.2316" y1="15.5368" x2="27.0942" y2="57.6846" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#538BF0"/>
+      <stop offset="1" stop-color="#2DC7ED" stop-opacity="0"/>
+      </linearGradient>
+      <linearGradient id="paint2_linear_104_10" x1="64.2316" y1="15.5368" x2="27.0942" y2="57.6846" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#538BF0"/>
+      <stop offset="1" stop-color="#2DC7ED"/>
+      </linearGradient>
+      <linearGradient id="paint3_linear_104_10" x1="64.2316" y1="15.5368" x2="27.0942" y2="57.6846" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#538BF0"/>
+      <stop offset="1" stop-color="#2DC7ED"/>
+      </linearGradient>
+      </defs>
+      </svg>
+      
+  </section>
+
   <!-- NAVBAR -->
   <header>
     <!-- NAVBAR DESKTOP -->
@@ -66,7 +94,7 @@
 
   <!-- PAGE HERO -->
   <section class="container section hero" id="home"> 
-    <div class="flex-item-1">
+    <div class="flex-item-1 gsap-item1">
       <div>
         <h5>Olá, me chamo</h5>
       </div>
@@ -77,7 +105,7 @@
         <h4 class="text-right mt-2">Desenvolvedor Front-End</h4>
       </div>
     </div>
-    <div class="flex-item-2 flex-center svg-hero">
+    <div class="flex-item-2 flex-center svg-hero gsap-item2">
       <svg viewBox="0 0 1327 731" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g id="pageHero" clip-path="url(#clip0_2314_2)">
         <path id="line2_gradient" d="M1123 327V95" stroke="url(#paint0_linear_2314_2)" stroke-width="3"/>
@@ -394,7 +422,7 @@
       <div class="cards mt-4">
         <div class="card">
           <div class="thumb hidden">
-            <a href=""><img src="img/nubank.png" alt=""></a>
+            <a href="https://github.com/leokatsuki/Nubank"><img src="img/nubank.png" alt=""></a>
           </div>
           <div class="mt-2 px-2">
             <ul class="flex">
@@ -406,14 +434,14 @@
             <p class="mt-1 gray">Projeto construido utilizando Flexbox layout no curso FrontPush.</p>
             <div class="my-4 card-link space-between">
               <a class="mask" href="">Visualizar projeto</a>
-              <a href=""><img class="github" src="svg/github.svg" alt=""></a>
+              <a href="https://github.com/leokatsuki/Nubank"><img class="github" src="svg/github.svg" alt=""></a>
             </div>
           </div>
         </div>
 
         <div class="card">
           <div class="thumb hidden">
-            <a href=""><img src="img/spiderMan.png" alt=""></a>
+            <a href="https://github.com/leokatsuki/spider-man"><img src="img/spiderMan.png" alt=""></a>
           </div>
           <div class="mt-2 px-2">
             <ul class="flex">
@@ -425,14 +453,14 @@
             <p class="mt-1 gray">Projeto construido utilizando no curso FrontPush com foco em <strong>motion</strong>.</p>
             <div class="my-4 card-link space-between">
               <a class="mask" href="">Visualizar projeto</a>
-              <a href=""><img class="github" src="svg/github.svg" alt=""></a>
+              <a href="https://github.com/leokatsuki/spider-man"><img class="github" src="svg/github.svg" alt=""></a>
             </div>
           </div>
         </div>
 
         <div class="card">
           <div class="thumb hidden">
-            <a href=""><img src="img/food.png" alt=""></a>
+            <a href="https://github.com/leokatsuki/Projeto_Food"><img src="img/food.png" alt=""></a>
           </div>
           <div class="mt-2 px-2">
             <ul class="flex">
@@ -443,7 +471,7 @@
             <p class="mt-1 gray">Meu primeiro projeto pessoal construido em um trabalho final no curso da CoderHouse.</p>
             <div class="my-4 card-link space-between">
               <a class="mask" href="">Visualizar projeto</a>
-              <a href=""><img class="github" src="svg/github.svg" alt=""></a>
+              <a href="https://github.com/leokatsuki/Projeto_Food"><img class="github" src="svg/github.svg" alt=""></a>
             </div>
           </div>
         </div>
@@ -479,11 +507,19 @@
     </div>
   </footer>
 
-  <!-- SCROLL UP -->
-  <a href="#" class="scrollup" id="scroll-up"><i class="ri-arrow-up-line"></i></a>
 
   <!-- JS -->
   <script src="js/app.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
+
+    <script>
+        $('.js-tilt').tilt({
+            perspective: 2000,
+            scale: 1.05
+        });
+    </script>
 
   <!-- EMAILJS -->
   <script type="text/javascript"
